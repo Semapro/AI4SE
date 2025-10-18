@@ -1,0 +1,1721 @@
+{
+    "XMI": {
+        "@xmi.version": "1.1",
+        "@xmlns:UML": "omg.org/UML1.3",
+        "@timestamp": "2025-10-07 18:18:44",
+        "XMI.header": {
+            "XMI.documentation": {
+                "XMI.exporter": "Enterprise Architect",
+                "XMI.exporterVersion": "2.5",
+                "XMI.exporterID": "1624"
+            }
+        },
+        "XMI.content": {
+            "UML:Model": {
+                "@name": "EA Model",
+                "@xmi.id": "MX_EAID_A00DBE28_7C31_4bd5_86A3_634B0C996DD3",
+                "UML:Namespace.ownedElement": {
+                    "UML:Class": {
+                        "@name": "EARootClass",
+                        "@xmi.id": "EAID_11111111_5487_4080_A7F4_41526CB0AA00",
+                        "@isRoot": "true",
+                        "@isLeaf": "false",
+                        "@isAbstract": "false"
+                    },
+                    "UML:Package": {
+                        "@name": "Model",
+                        "@xmi.id": "EAPK_A00DBE28_7C31_4bd5_86A3_634B0C996DD3",
+                        "@isRoot": "true",
+                        "@isLeaf": "false",
+                        "@isAbstract": "false",
+                        "@visibility": "public",
+                        "UML:ModelElement.taggedValue": {
+                            "UML:TaggedValue": [
+                                {
+                                    "@tag": "created",
+                                    "@value": "2012-04-17 00:01:01"
+                                },
+                                {
+                                    "@tag": "modified",
+                                    "@value": "2012-04-17 00:01:01"
+                                },
+                                {
+                                    "@tag": "iscontrolled",
+                                    "@value": "0"
+                                },
+                                {
+                                    "@tag": "lastloaddate",
+                                    "@value": "2012-04-17 00:01:01"
+                                },
+                                {
+                                    "@tag": "lastsavedate",
+                                    "@value": "2012-04-17 00:01:01"
+                                },
+                                {
+                                    "@tag": "version",
+                                    "@value": "1.0"
+                                },
+                                {
+                                    "@tag": "isprotected",
+                                    "@value": "0"
+                                },
+                                {
+                                    "@tag": "usedtd",
+                                    "@value": "0"
+                                },
+                                {
+                                    "@tag": "logxml",
+                                    "@value": "0"
+                                },
+                                {
+                                    "@tag": "packageFlags",
+                                    "@value": "isModel=1;"
+                                }
+                            ]
+                        },
+                        "UML:Namespace.ownedElement": {
+                            "UML:Collaboration": {
+                                "@xmi.id": "EAID_A00DBE28_7C31_4bd5_86A3_634B0C996DD3_Collaboration",
+                                "@name": "Collaborations",
+                                "UML:Namespace.ownedElement": {
+                                    "UML:ClassifierRole": {
+                                        "@name": "Systeem",
+                                        "@xmi.id": "EAID_E841345E_A11E_4c6d_87AF_1CB33616FB0B",
+                                        "@visibility": "public",
+                                        "@base": "EAID_11111111_5487_4080_A7F4_41526CB0AA00",
+                                        "UML:ModelElement.taggedValue": {
+                                            "UML:TaggedValue": [
+                                                {
+                                                    "@tag": "isAbstract",
+                                                    "@value": "false"
+                                                },
+                                                {
+                                                    "@tag": "isSpecification",
+                                                    "@value": "false"
+                                                },
+                                                {
+                                                    "@tag": "ea_stype",
+                                                    "@value": "Package"
+                                                },
+                                                {
+                                                    "@tag": "ea_ntype",
+                                                    "@value": "0"
+                                                },
+                                                {
+                                                    "@tag": "version",
+                                                    "@value": "1.0"
+                                                },
+                                                {
+                                                    "@tag": "isActive",
+                                                    "@value": "false"
+                                                },
+                                                {
+                                                    "@tag": "package",
+                                                    "@value": "EAPK_A00DBE28_7C31_4bd5_86A3_634B0C996DD3"
+                                                },
+                                                {
+                                                    "@tag": "date_created",
+                                                    "@value": "2025-10-07 17:52:26"
+                                                },
+                                                {
+                                                    "@tag": "date_modified",
+                                                    "@value": "2025-10-07 17:52:26"
+                                                },
+                                                {
+                                                    "@tag": "gentype",
+                                                    "@value": "Java"
+                                                },
+                                                {
+                                                    "@tag": "tagged",
+                                                    "@value": "0"
+                                                },
+                                                {
+                                                    "@tag": "package2",
+                                                    "@value": "EAID_E841345E_A11E_4c6d_87AF_1CB33616FB0B"
+                                                },
+                                                {
+                                                    "@tag": "package_name",
+                                                    "@value": "Model"
+                                                },
+                                                {
+                                                    "@tag": "phase",
+                                                    "@value": "1.0"
+                                                },
+                                                {
+                                                    "@tag": "author",
+                                                    "@value": "EricBurgers"
+                                                },
+                                                {
+                                                    "@tag": "complexity",
+                                                    "@value": "1"
+                                                },
+                                                {
+                                                    "@tag": "status",
+                                                    "@value": "Proposed"
+                                                },
+                                                {
+                                                    "@tag": "tpos",
+                                                    "@value": "0"
+                                                },
+                                                {
+                                                    "@tag": "ea_localid",
+                                                    "@value": "4"
+                                                },
+                                                {
+                                                    "@tag": "ea_eleType",
+                                                    "@value": "package"
+                                                },
+                                                {
+                                                    "@tag": "style",
+                                                    "@value": "BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "UML:Collaboration.interaction": null
+                            },
+                            "UML:Package": {
+                                "@name": "Systeem",
+                                "@xmi.id": "EAPK_E841345E_A11E_4c6d_87AF_1CB33616FB0B",
+                                "@isRoot": "false",
+                                "@isLeaf": "false",
+                                "@isAbstract": "false",
+                                "@visibility": "public",
+                                "UML:ModelElement.taggedValue": {
+                                    "UML:TaggedValue": [
+                                        {
+                                            "@tag": "parent",
+                                            "@value": "EAPK_A00DBE28_7C31_4bd5_86A3_634B0C996DD3"
+                                        },
+                                        {
+                                            "@tag": "created",
+                                            "@value": "2025-10-07 17:52:26"
+                                        },
+                                        {
+                                            "@tag": "modified",
+                                            "@value": "2025-10-07 17:52:26"
+                                        },
+                                        {
+                                            "@tag": "iscontrolled",
+                                            "@value": "0"
+                                        },
+                                        {
+                                            "@tag": "version",
+                                            "@value": "1.0"
+                                        },
+                                        {
+                                            "@tag": "isprotected",
+                                            "@value": "0"
+                                        },
+                                        {
+                                            "@tag": "usedtd",
+                                            "@value": "0"
+                                        },
+                                        {
+                                            "@tag": "logxml",
+                                            "@value": "0"
+                                        },
+                                        {
+                                            "@tag": "packageFlags",
+                                            "@value": "isModel=1;VICON=3;"
+                                        },
+                                        {
+                                            "@tag": "phase",
+                                            "@value": "1.0"
+                                        },
+                                        {
+                                            "@tag": "status",
+                                            "@value": "Proposed"
+                                        },
+                                        {
+                                            "@tag": "author",
+                                            "@value": "EricBurgers"
+                                        },
+                                        {
+                                            "@tag": "complexity",
+                                            "@value": "1"
+                                        },
+                                        {
+                                            "@tag": "ea_stype",
+                                            "@value": "Public"
+                                        }
+                                    ]
+                                },
+                                "UML:Namespace.ownedElement": {
+                                    "UML:Collaboration": {
+                                        "@xmi.id": "EAID_E841345E_A11E_4c6d_87AF_1CB33616FB0B_Collaboration",
+                                        "@name": "Collaborations",
+                                        "UML:Namespace.ownedElement": {
+                                            "UML:ClassifierRole": [
+                                                {
+                                                    "@name": "Context",
+                                                    "@xmi.id": "EAID_8A09FDF9_4388_476c_9EEE_A0DD40FFFE06",
+                                                    "@visibility": "public",
+                                                    "@base": "EAID_11111111_5487_4080_A7F4_41526CB0AA00",
+                                                    "UML:ModelElement.taggedValue": {
+                                                        "UML:TaggedValue": [
+                                                            {
+                                                                "@tag": "isAbstract",
+                                                                "@value": "false"
+                                                            },
+                                                            {
+                                                                "@tag": "isSpecification",
+                                                                "@value": "false"
+                                                            },
+                                                            {
+                                                                "@tag": "ea_stype",
+                                                                "@value": "Package"
+                                                            },
+                                                            {
+                                                                "@tag": "ea_ntype",
+                                                                "@value": "0"
+                                                            },
+                                                            {
+                                                                "@tag": "version",
+                                                                "@value": "1.0"
+                                                            },
+                                                            {
+                                                                "@tag": "isActive",
+                                                                "@value": "false"
+                                                            },
+                                                            {
+                                                                "@tag": "package",
+                                                                "@value": "EAPK_E841345E_A11E_4c6d_87AF_1CB33616FB0B"
+                                                            },
+                                                            {
+                                                                "@tag": "date_created",
+                                                                "@value": "2025-10-07 17:53:03"
+                                                            },
+                                                            {
+                                                                "@tag": "date_modified",
+                                                                "@value": "2025-10-07 17:53:03"
+                                                            },
+                                                            {
+                                                                "@tag": "gentype",
+                                                                "@value": "Java"
+                                                            },
+                                                            {
+                                                                "@tag": "tagged",
+                                                                "@value": "0"
+                                                            },
+                                                            {
+                                                                "@tag": "package2",
+                                                                "@value": "EAID_8A09FDF9_4388_476c_9EEE_A0DD40FFFE06"
+                                                            },
+                                                            {
+                                                                "@tag": "package_name",
+                                                                "@value": "Systeem"
+                                                            },
+                                                            {
+                                                                "@tag": "phase",
+                                                                "@value": "1.0"
+                                                            },
+                                                            {
+                                                                "@tag": "author",
+                                                                "@value": "EricBurgers"
+                                                            },
+                                                            {
+                                                                "@tag": "complexity",
+                                                                "@value": "1"
+                                                            },
+                                                            {
+                                                                "@tag": "status",
+                                                                "@value": "Proposed"
+                                                            },
+                                                            {
+                                                                "@tag": "tpos",
+                                                                "@value": "0"
+                                                            },
+                                                            {
+                                                                "@tag": "ea_localid",
+                                                                "@value": "5"
+                                                            },
+                                                            {
+                                                                "@tag": "ea_eleType",
+                                                                "@value": "package"
+                                                            },
+                                                            {
+                                                                "@tag": "style",
+                                                                "@value": "BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "@name": "SystemOfInterest",
+                                                    "@xmi.id": "EAID_E1534927_6443_4a2e_B434_71B0CE3E1E2E",
+                                                    "@visibility": "public",
+                                                    "@base": "EAID_11111111_5487_4080_A7F4_41526CB0AA00",
+                                                    "UML:ModelElement.taggedValue": {
+                                                        "UML:TaggedValue": [
+                                                            {
+                                                                "@tag": "isAbstract",
+                                                                "@value": "false"
+                                                            },
+                                                            {
+                                                                "@tag": "isSpecification",
+                                                                "@value": "false"
+                                                            },
+                                                            {
+                                                                "@tag": "ea_stype",
+                                                                "@value": "Package"
+                                                            },
+                                                            {
+                                                                "@tag": "ea_ntype",
+                                                                "@value": "0"
+                                                            },
+                                                            {
+                                                                "@tag": "version",
+                                                                "@value": "1.0"
+                                                            },
+                                                            {
+                                                                "@tag": "isActive",
+                                                                "@value": "false"
+                                                            },
+                                                            {
+                                                                "@tag": "package",
+                                                                "@value": "EAPK_E841345E_A11E_4c6d_87AF_1CB33616FB0B"
+                                                            },
+                                                            {
+                                                                "@tag": "date_created",
+                                                                "@value": "2025-10-07 17:54:15"
+                                                            },
+                                                            {
+                                                                "@tag": "date_modified",
+                                                                "@value": "2025-10-07 17:54:15"
+                                                            },
+                                                            {
+                                                                "@tag": "gentype",
+                                                                "@value": "Java"
+                                                            },
+                                                            {
+                                                                "@tag": "tagged",
+                                                                "@value": "0"
+                                                            },
+                                                            {
+                                                                "@tag": "package2",
+                                                                "@value": "EAID_E1534927_6443_4a2e_B434_71B0CE3E1E2E"
+                                                            },
+                                                            {
+                                                                "@tag": "package_name",
+                                                                "@value": "Systeem"
+                                                            },
+                                                            {
+                                                                "@tag": "phase",
+                                                                "@value": "1.0"
+                                                            },
+                                                            {
+                                                                "@tag": "author",
+                                                                "@value": "EricBurgers"
+                                                            },
+                                                            {
+                                                                "@tag": "complexity",
+                                                                "@value": "1"
+                                                            },
+                                                            {
+                                                                "@tag": "status",
+                                                                "@value": "Proposed"
+                                                            },
+                                                            {
+                                                                "@tag": "tpos",
+                                                                "@value": "0"
+                                                            },
+                                                            {
+                                                                "@tag": "ea_localid",
+                                                                "@value": "6"
+                                                            },
+                                                            {
+                                                                "@tag": "ea_eleType",
+                                                                "@value": "package"
+                                                            },
+                                                            {
+                                                                "@tag": "style",
+                                                                "@value": "BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "UML:Collaboration.interaction": null
+                                    },
+                                    "UML:Package": [
+                                        {
+                                            "@name": "Context",
+                                            "@xmi.id": "EAPK_8A09FDF9_4388_476c_9EEE_A0DD40FFFE06",
+                                            "@isRoot": "false",
+                                            "@isLeaf": "false",
+                                            "@isAbstract": "false",
+                                            "@visibility": "public",
+                                            "UML:ModelElement.taggedValue": {
+                                                "UML:TaggedValue": [
+                                                    {
+                                                        "@tag": "parent",
+                                                        "@value": "EAPK_E841345E_A11E_4c6d_87AF_1CB33616FB0B"
+                                                    },
+                                                    {
+                                                        "@tag": "created",
+                                                        "@value": "2025-10-07 17:53:03"
+                                                    },
+                                                    {
+                                                        "@tag": "modified",
+                                                        "@value": "2025-10-07 17:53:03"
+                                                    },
+                                                    {
+                                                        "@tag": "iscontrolled",
+                                                        "@value": "0"
+                                                    },
+                                                    {
+                                                        "@tag": "version",
+                                                        "@value": "1.0"
+                                                    },
+                                                    {
+                                                        "@tag": "isprotected",
+                                                        "@value": "0"
+                                                    },
+                                                    {
+                                                        "@tag": "usedtd",
+                                                        "@value": "0"
+                                                    },
+                                                    {
+                                                        "@tag": "logxml",
+                                                        "@value": "0"
+                                                    },
+                                                    {
+                                                        "@tag": "phase",
+                                                        "@value": "1.0"
+                                                    },
+                                                    {
+                                                        "@tag": "status",
+                                                        "@value": "Proposed"
+                                                    },
+                                                    {
+                                                        "@tag": "author",
+                                                        "@value": "EricBurgers"
+                                                    },
+                                                    {
+                                                        "@tag": "complexity",
+                                                        "@value": "1"
+                                                    },
+                                                    {
+                                                        "@tag": "ea_stype",
+                                                        "@value": "Public"
+                                                    }
+                                                ]
+                                            },
+                                            "UML:Namespace.ownedElement": {
+                                                "UML:Class": [
+                                                    {
+                                                        "@name": "OperationeleOmgeving",
+                                                        "@xmi.id": "EAID_2E8CE929_6C46_42e6_9FF2_F5293310D473",
+                                                        "@visibility": "public",
+                                                        "@namespace": "EAPK_8A09FDF9_4388_476c_9EEE_A0DD40FFFE06",
+                                                        "@isRoot": "false",
+                                                        "@isLeaf": "false",
+                                                        "@isAbstract": "false",
+                                                        "@isActive": "false",
+                                                        "UML:ModelElement.stereotype": {
+                                                            "UML:Stereotype": {
+                                                                "@name": "block"
+                                                            }
+                                                        },
+                                                        "UML:ModelElement.taggedValue": {
+                                                            "UML:TaggedValue": [
+                                                                {
+                                                                    "@tag": "isSpecification",
+                                                                    "@value": "false"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_stype",
+                                                                    "@value": "Class"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_ntype",
+                                                                    "@value": "8"
+                                                                },
+                                                                {
+                                                                    "@tag": "version",
+                                                                    "@value": "1.0"
+                                                                },
+                                                                {
+                                                                    "@tag": "package",
+                                                                    "@value": "EAPK_8A09FDF9_4388_476c_9EEE_A0DD40FFFE06"
+                                                                },
+                                                                {
+                                                                    "@tag": "date_created",
+                                                                    "@value": "2025-10-07 18:11:00"
+                                                                },
+                                                                {
+                                                                    "@tag": "date_modified",
+                                                                    "@value": "2025-10-07 18:12:40"
+                                                                },
+                                                                {
+                                                                    "@tag": "gentype",
+                                                                    "@value": "Java"
+                                                                },
+                                                                {
+                                                                    "@tag": "tagged",
+                                                                    "@value": "0"
+                                                                },
+                                                                {
+                                                                    "@tag": "package_name",
+                                                                    "@value": "Context"
+                                                                },
+                                                                {
+                                                                    "@tag": "phase",
+                                                                    "@value": "1.0"
+                                                                },
+                                                                {
+                                                                    "@tag": "author",
+                                                                    "@value": "EricBurgers"
+                                                                },
+                                                                {
+                                                                    "@tag": "complexity",
+                                                                    "@value": "1"
+                                                                },
+                                                                {
+                                                                    "@tag": "status",
+                                                                    "@value": "Proposed"
+                                                                },
+                                                                {
+                                                                    "@tag": "stereotype",
+                                                                    "@value": "block"
+                                                                },
+                                                                {
+                                                                    "@tag": "styleex",
+                                                                    "@value": "ConstructID=0;"
+                                                                },
+                                                                {
+                                                                    "@tag": "tpos",
+                                                                    "@value": "0"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_localid",
+                                                                    "@value": "6"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_eleType",
+                                                                    "@value": "element"
+                                                                },
+                                                                {
+                                                                    "@tag": "diagram",
+                                                                    "@value": "EAID_DEA84AC4_661D_48ad_B11F_1DBDB64676AF"
+                                                                },
+                                                                {
+                                                                    "@tag": "style",
+                                                                    "@value": "BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"
+                                                                },
+                                                                {
+                                                                    "@tag": "$ea_xref_property",
+                                                                    "@value": "$XREFPROP=$XID={1E937E29-3917-419f-9696-12860685EB8B}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=block;FQName=SysML1.4::block;@ENDSTEREO;$DES;$CLT={2E8CE929-6C46-42e6-9FF2-F5293310D473}$CLT;$SUP=<none>$SUP;$ENDXREF;$XREFPROP=$XID={42A4EFAD-3DE5-4f5d-A3C9-2BBA869E1B1E}$XID;$NAM=DefaultDiagram$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$CLT={2E8CE929-6C46-42e6-9FF2-F5293310D473}$CLT;$SUP={DEA84AC4-661D-48ad-B11F-1DBDB64676AF}$SUP;$ENDXREF;$XREFPROP=$XID={43E5EE9E-E892-4b8d-828E-F6FA52689D7B}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=SysML1.4::InternalBlock@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={2E8CE929-6C46-42e6-9FF2-F5293310D473}$CLT;$SUP=<none>$SUP;$ENDXREF;"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "@name": "ExternSysteem",
+                                                        "@xmi.id": "EAID_F6872F36_5C9A_4f86_B5D6_5F86B61AFB5D",
+                                                        "@visibility": "public",
+                                                        "@namespace": "EAPK_8A09FDF9_4388_476c_9EEE_A0DD40FFFE06",
+                                                        "@isRoot": "false",
+                                                        "@isLeaf": "false",
+                                                        "@isAbstract": "false",
+                                                        "@isActive": "false",
+                                                        "UML:ModelElement.stereotype": {
+                                                            "UML:Stereotype": {
+                                                                "@name": "block"
+                                                            }
+                                                        },
+                                                        "UML:ModelElement.taggedValue": {
+                                                            "UML:TaggedValue": [
+                                                                {
+                                                                    "@tag": "isSpecification",
+                                                                    "@value": "false"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_stype",
+                                                                    "@value": "Class"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_ntype",
+                                                                    "@value": "0"
+                                                                },
+                                                                {
+                                                                    "@tag": "version",
+                                                                    "@value": "1.0"
+                                                                },
+                                                                {
+                                                                    "@tag": "package",
+                                                                    "@value": "EAPK_8A09FDF9_4388_476c_9EEE_A0DD40FFFE06"
+                                                                },
+                                                                {
+                                                                    "@tag": "date_created",
+                                                                    "@value": "2025-10-07 18:11:52"
+                                                                },
+                                                                {
+                                                                    "@tag": "date_modified",
+                                                                    "@value": "2025-10-07 18:12:04"
+                                                                },
+                                                                {
+                                                                    "@tag": "gentype",
+                                                                    "@value": "Java"
+                                                                },
+                                                                {
+                                                                    "@tag": "tagged",
+                                                                    "@value": "0"
+                                                                },
+                                                                {
+                                                                    "@tag": "package_name",
+                                                                    "@value": "Context"
+                                                                },
+                                                                {
+                                                                    "@tag": "phase",
+                                                                    "@value": "1.0"
+                                                                },
+                                                                {
+                                                                    "@tag": "author",
+                                                                    "@value": "EricBurgers"
+                                                                },
+                                                                {
+                                                                    "@tag": "complexity",
+                                                                    "@value": "1"
+                                                                },
+                                                                {
+                                                                    "@tag": "status",
+                                                                    "@value": "Proposed"
+                                                                },
+                                                                {
+                                                                    "@tag": "stereotype",
+                                                                    "@value": "block"
+                                                                },
+                                                                {
+                                                                    "@tag": "tpos",
+                                                                    "@value": "0"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_localid",
+                                                                    "@value": "9"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_eleType",
+                                                                    "@value": "element"
+                                                                },
+                                                                {
+                                                                    "@tag": "style",
+                                                                    "@value": "BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"
+                                                                },
+                                                                {
+                                                                    "@tag": "$ea_xref_property",
+                                                                    "@value": "$XREFPROP=$XID={823868C7-7447-4372-BF98-AF71C07B5D46}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=block;FQName=SysML1.4::block;@ENDSTEREO;$DES;$CLT={F6872F36-5C9A-4f86-B5D6-5F86B61AFB5D}$CLT;$SUP=<none>$SUP;$ENDXREF;$XREFPROP=$XID={FDCE2789-443D-4e34-861F-DEEC75533774}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=SysML1.4::InternalBlock@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={F6872F36-5C9A-4f86-B5D6-5F86B61AFB5D}$CLT;$SUP=<none>$SUP;$ENDXREF;"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "UML:Association": [
+                                                    {
+                                                        "@xmi.id": "EAID_1193EA02_878F_4f1f_A405_8F387D0D37A9",
+                                                        "@visibility": "public",
+                                                        "@isRoot": "false",
+                                                        "@isLeaf": "false",
+                                                        "@isAbstract": "false",
+                                                        "UML:ModelElement.taggedValue": {
+                                                            "UML:TaggedValue": [
+                                                                {
+                                                                    "@tag": "style",
+                                                                    "@value": "3"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_type",
+                                                                    "@value": "Aggregation"
+                                                                },
+                                                                {
+                                                                    "@tag": "direction",
+                                                                    "@value": "Destination -> Source"
+                                                                },
+                                                                {
+                                                                    "@tag": "linemode",
+                                                                    "@value": "3"
+                                                                },
+                                                                {
+                                                                    "@tag": "linecolor",
+                                                                    "@value": "-1"
+                                                                },
+                                                                {
+                                                                    "@tag": "linewidth",
+                                                                    "@value": "0"
+                                                                },
+                                                                {
+                                                                    "@tag": "seqno",
+                                                                    "@value": "0"
+                                                                },
+                                                                {
+                                                                    "@tag": "subtype",
+                                                                    "@value": "Strong"
+                                                                },
+                                                                {
+                                                                    "@tag": "headStyle",
+                                                                    "@value": "0"
+                                                                },
+                                                                {
+                                                                    "@tag": "lineStyle",
+                                                                    "@value": "0"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_localid",
+                                                                    "@value": "1"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_sourceName",
+                                                                    "@value": "MijnSysteem"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_targetName",
+                                                                    "@value": "OperationeleOmgeving"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_sourceType",
+                                                                    "@value": "Class"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_targetType",
+                                                                    "@value": "Class"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_sourceID",
+                                                                    "@value": "7"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_targetID",
+                                                                    "@value": "6"
+                                                                },
+                                                                {
+                                                                    "@tag": "virtualInheritance",
+                                                                    "@value": "0"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "UML:Association.connection": {
+                                                            "UML:AssociationEnd": [
+                                                                {
+                                                                    "@visibility": "public",
+                                                                    "@aggregation": "none",
+                                                                    "@isOrdered": "false",
+                                                                    "@targetScope": "instance",
+                                                                    "@changeable": "none",
+                                                                    "@isNavigable": "true",
+                                                                    "@type": "EAID_73EFF6CF_CB1A_4d34_856E_E437EB52E04A",
+                                                                    "UML:ModelElement.taggedValue": {
+                                                                        "UML:TaggedValue": [
+                                                                            {
+                                                                                "@tag": "containment",
+                                                                                "@value": "Unspecified"
+                                                                            },
+                                                                            {
+                                                                                "@tag": "sourcestyle",
+                                                                                "@value": "Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"
+                                                                            },
+                                                                            {
+                                                                                "@tag": "ea_end",
+                                                                                "@value": "source"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "@visibility": "public",
+                                                                    "@aggregation": "composite",
+                                                                    "@isOrdered": "false",
+                                                                    "@targetScope": "instance",
+                                                                    "@changeable": "none",
+                                                                    "@isNavigable": "false",
+                                                                    "@type": "EAID_2E8CE929_6C46_42e6_9FF2_F5293310D473",
+                                                                    "UML:ModelElement.taggedValue": {
+                                                                        "UML:TaggedValue": [
+                                                                            {
+                                                                                "@tag": "containment",
+                                                                                "@value": "Unspecified"
+                                                                            },
+                                                                            {
+                                                                                "@tag": "deststyle",
+                                                                                "@value": "Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"
+                                                                            },
+                                                                            {
+                                                                                "@tag": "ea_end",
+                                                                                "@value": "target"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "@xmi.id": "EAID_6DBCDA13_E28A_42fe_89EE_09715C013D51",
+                                                        "@visibility": "public",
+                                                        "@isRoot": "false",
+                                                        "@isLeaf": "false",
+                                                        "@isAbstract": "false",
+                                                        "UML:ModelElement.taggedValue": {
+                                                            "UML:TaggedValue": [
+                                                                {
+                                                                    "@tag": "style",
+                                                                    "@value": "3"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_type",
+                                                                    "@value": "Aggregation"
+                                                                },
+                                                                {
+                                                                    "@tag": "direction",
+                                                                    "@value": "Destination -> Source"
+                                                                },
+                                                                {
+                                                                    "@tag": "linemode",
+                                                                    "@value": "3"
+                                                                },
+                                                                {
+                                                                    "@tag": "linecolor",
+                                                                    "@value": "-1"
+                                                                },
+                                                                {
+                                                                    "@tag": "linewidth",
+                                                                    "@value": "0"
+                                                                },
+                                                                {
+                                                                    "@tag": "seqno",
+                                                                    "@value": "0"
+                                                                },
+                                                                {
+                                                                    "@tag": "subtype",
+                                                                    "@value": "Strong"
+                                                                },
+                                                                {
+                                                                    "@tag": "headStyle",
+                                                                    "@value": "0"
+                                                                },
+                                                                {
+                                                                    "@tag": "lineStyle",
+                                                                    "@value": "0"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_localid",
+                                                                    "@value": "2"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_sourceName",
+                                                                    "@value": "ExternSysteem"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_targetName",
+                                                                    "@value": "OperationeleOmgeving"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_sourceType",
+                                                                    "@value": "Class"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_targetType",
+                                                                    "@value": "Class"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_sourceID",
+                                                                    "@value": "9"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_targetID",
+                                                                    "@value": "6"
+                                                                },
+                                                                {
+                                                                    "@tag": "virtualInheritance",
+                                                                    "@value": "0"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "UML:Association.connection": {
+                                                            "UML:AssociationEnd": [
+                                                                {
+                                                                    "@visibility": "public",
+                                                                    "@aggregation": "none",
+                                                                    "@isOrdered": "false",
+                                                                    "@targetScope": "instance",
+                                                                    "@changeable": "none",
+                                                                    "@isNavigable": "true",
+                                                                    "@type": "EAID_F6872F36_5C9A_4f86_B5D6_5F86B61AFB5D",
+                                                                    "UML:ModelElement.taggedValue": {
+                                                                        "UML:TaggedValue": [
+                                                                            {
+                                                                                "@tag": "containment",
+                                                                                "@value": "Unspecified"
+                                                                            },
+                                                                            {
+                                                                                "@tag": "sourcestyle",
+                                                                                "@value": "Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"
+                                                                            },
+                                                                            {
+                                                                                "@tag": "ea_end",
+                                                                                "@value": "source"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "@visibility": "public",
+                                                                    "@aggregation": "composite",
+                                                                    "@isOrdered": "false",
+                                                                    "@targetScope": "instance",
+                                                                    "@changeable": "none",
+                                                                    "@isNavigable": "false",
+                                                                    "@type": "EAID_2E8CE929_6C46_42e6_9FF2_F5293310D473",
+                                                                    "UML:ModelElement.taggedValue": {
+                                                                        "UML:TaggedValue": [
+                                                                            {
+                                                                                "@tag": "containment",
+                                                                                "@value": "Unspecified"
+                                                                            },
+                                                                            {
+                                                                                "@tag": "deststyle",
+                                                                                "@value": "Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"
+                                                                            },
+                                                                            {
+                                                                                "@tag": "ea_end",
+                                                                                "@value": "target"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "@xmi.id": "EAID_A0D6BF26_4FFE_4075_8063_0900BE92D890",
+                                                        "@visibility": "public",
+                                                        "@isRoot": "false",
+                                                        "@isLeaf": "false",
+                                                        "@isAbstract": "false",
+                                                        "UML:ModelElement.taggedValue": {
+                                                            "UML:TaggedValue": [
+                                                                {
+                                                                    "@tag": "style",
+                                                                    "@value": "3"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_type",
+                                                                    "@value": "Connector"
+                                                                },
+                                                                {
+                                                                    "@tag": "direction",
+                                                                    "@value": "Unspecified"
+                                                                },
+                                                                {
+                                                                    "@tag": "linemode",
+                                                                    "@value": "3"
+                                                                },
+                                                                {
+                                                                    "@tag": "linecolor",
+                                                                    "@value": "-1"
+                                                                },
+                                                                {
+                                                                    "@tag": "linewidth",
+                                                                    "@value": "0"
+                                                                },
+                                                                {
+                                                                    "@tag": "seqno",
+                                                                    "@value": "0"
+                                                                },
+                                                                {
+                                                                    "@tag": "headStyle",
+                                                                    "@value": "0"
+                                                                },
+                                                                {
+                                                                    "@tag": "lineStyle",
+                                                                    "@value": "0"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_localid",
+                                                                    "@value": "3"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_sourceType",
+                                                                    "@value": "Part"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_targetType",
+                                                                    "@value": "Part"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_sourceID",
+                                                                    "@value": "8"
+                                                                },
+                                                                {
+                                                                    "@tag": "ea_targetID",
+                                                                    "@value": "10"
+                                                                },
+                                                                {
+                                                                    "@tag": "privatedata5",
+                                                                    "@value": "SX=0;SY=0;EX=0;EY=0;EDGE=2;"
+                                                                },
+                                                                {
+                                                                    "@tag": "virtualInheritance",
+                                                                    "@value": "0"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "UML:Association.connection": {
+                                                            "UML:AssociationEnd": [
+                                                                {
+                                                                    "@visibility": "public",
+                                                                    "@aggregation": "none",
+                                                                    "@isOrdered": "false",
+                                                                    "@targetScope": "instance",
+                                                                    "@changeable": "none",
+                                                                    "@isNavigable": "true",
+                                                                    "@type": "EAID_3CCBAF10_CE87_443f_9D8A_C7F01DD0B24E",
+                                                                    "UML:ModelElement.taggedValue": {
+                                                                        "UML:TaggedValue": [
+                                                                            {
+                                                                                "@tag": "containment",
+                                                                                "@value": "Unspecified"
+                                                                            },
+                                                                            {
+                                                                                "@tag": "sourcestyle",
+                                                                                "@value": "Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"
+                                                                            },
+                                                                            {
+                                                                                "@tag": "ea_end",
+                                                                                "@value": "source"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "@visibility": "public",
+                                                                    "@aggregation": "none",
+                                                                    "@isOrdered": "false",
+                                                                    "@targetScope": "instance",
+                                                                    "@changeable": "none",
+                                                                    "@isNavigable": "true",
+                                                                    "@type": "EAID_64498BB7_91C5_4f0b_BACF_1F67D33C6B5A",
+                                                                    "UML:ModelElement.taggedValue": {
+                                                                        "UML:TaggedValue": [
+                                                                            {
+                                                                                "@tag": "containment",
+                                                                                "@value": "Unspecified"
+                                                                            },
+                                                                            {
+                                                                                "@tag": "deststyle",
+                                                                                "@value": "Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"
+                                                                            },
+                                                                            {
+                                                                                "@tag": "ea_end",
+                                                                                "@value": "target"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "UML:Collaboration": {
+                                                    "@xmi.id": "EAID_8A09FDF9_4388_476c_9EEE_A0DD40FFFE06_Collaboration",
+                                                    "@name": "Collaborations",
+                                                    "UML:Namespace.ownedElement": {
+                                                        "UML:ClassifierRole": [
+                                                            {
+                                                                "@xmi.id": "EAID_3CCBAF10_CE87_443f_9D8A_C7F01DD0B24E",
+                                                                "@visibility": "public",
+                                                                "@base": "EAID_11111111_5487_4080_A7F4_41526CB0AA00",
+                                                                "UML:ModelElement.taggedValue": {
+                                                                    "UML:TaggedValue": [
+                                                                        {
+                                                                            "@tag": "isAbstract",
+                                                                            "@value": "false"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "isSpecification",
+                                                                            "@value": "false"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "ea_stype",
+                                                                            "@value": "Part"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "ea_ntype",
+                                                                            "@value": "0"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "version",
+                                                                            "@value": "1.0"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "isActive",
+                                                                            "@value": "false"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "package",
+                                                                            "@value": "EAPK_8A09FDF9_4388_476c_9EEE_A0DD40FFFE06"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "owner",
+                                                                            "@value": "EAID_2E8CE929_6C46_42e6_9FF2_F5293310D473"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "date_created",
+                                                                            "@value": "2025-10-07 18:11:42"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "date_modified",
+                                                                            "@value": "2025-10-07 18:11:42"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "gentype",
+                                                                            "@value": "Java"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "tagged",
+                                                                            "@value": "0"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "package_name",
+                                                                            "@value": "Context"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "phase",
+                                                                            "@value": "1.0"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "author",
+                                                                            "@value": "EricBurgers"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "complexity",
+                                                                            "@value": "1"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "status",
+                                                                            "@value": "Proposed"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "tpos",
+                                                                            "@value": "0"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "propertyType",
+                                                                            "@value": "{73EFF6CF-CB1A-4d34-856E-E437EB52E04A}"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "ea_localid",
+                                                                            "@value": "8"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "ea_eleType",
+                                                                            "@value": "element"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "style",
+                                                                            "@value": "BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "$ea_xref_property",
+                                                                            "@value": "$XREFPROP=$XID={76413642-DC51-4a81-888A-41B55F7C207A}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_connectorRef@ENDNAME;@TYPE=string@ENDTYPE;@VALU=<SOURCE>@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isReference@ENDNAME;@TYPE=boolean@ENDTYPE;@VALU=0@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={3CCBAF10-CE87-443f-9D8A-C7F01DD0B24E}$CLT;$SUP={1193EA02-878F-4f1f-A405-8F387D0D37A9}$SUP;$ENDXREF;"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "@xmi.id": "EAID_64498BB7_91C5_4f0b_BACF_1F67D33C6B5A",
+                                                                "@visibility": "public",
+                                                                "@base": "EAID_11111111_5487_4080_A7F4_41526CB0AA00",
+                                                                "UML:ModelElement.taggedValue": {
+                                                                    "UML:TaggedValue": [
+                                                                        {
+                                                                            "@tag": "isAbstract",
+                                                                            "@value": "false"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "isSpecification",
+                                                                            "@value": "false"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "ea_stype",
+                                                                            "@value": "Part"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "ea_ntype",
+                                                                            "@value": "0"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "version",
+                                                                            "@value": "1.0"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "isActive",
+                                                                            "@value": "false"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "package",
+                                                                            "@value": "EAPK_8A09FDF9_4388_476c_9EEE_A0DD40FFFE06"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "owner",
+                                                                            "@value": "EAID_2E8CE929_6C46_42e6_9FF2_F5293310D473"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "date_created",
+                                                                            "@value": "2025-10-07 18:12:12"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "date_modified",
+                                                                            "@value": "2025-10-07 18:12:12"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "gentype",
+                                                                            "@value": "Java"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "tagged",
+                                                                            "@value": "0"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "package_name",
+                                                                            "@value": "Context"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "phase",
+                                                                            "@value": "1.0"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "author",
+                                                                            "@value": "EricBurgers"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "complexity",
+                                                                            "@value": "1"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "status",
+                                                                            "@value": "Proposed"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "tpos",
+                                                                            "@value": "0"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "propertyType",
+                                                                            "@value": "{F6872F36-5C9A-4f86-B5D6-5F86B61AFB5D}"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "ea_localid",
+                                                                            "@value": "10"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "ea_eleType",
+                                                                            "@value": "element"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "style",
+                                                                            "@value": "BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"
+                                                                        },
+                                                                        {
+                                                                            "@tag": "$ea_xref_property",
+                                                                            "@value": "$XREFPROP=$XID={B551F566-62CF-4f68-90D5-99829E356471}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_connectorRef@ENDNAME;@TYPE=string@ENDTYPE;@VALU=<SOURCE>@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isReference@ENDNAME;@TYPE=boolean@ENDTYPE;@VALU=0@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={64498BB7-91C5-4f0b-BACF-1F67D33C6B5A}$CLT;$SUP={6DBCDA13-E28A-42fe-89EE-09715C013D51}$SUP;$ENDXREF;"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "UML:Collaboration.interaction": null
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "@name": "SystemOfInterest",
+                                            "@xmi.id": "EAPK_E1534927_6443_4a2e_B434_71B0CE3E1E2E",
+                                            "@isRoot": "false",
+                                            "@isLeaf": "false",
+                                            "@isAbstract": "false",
+                                            "@visibility": "public",
+                                            "UML:ModelElement.taggedValue": {
+                                                "UML:TaggedValue": [
+                                                    {
+                                                        "@tag": "parent",
+                                                        "@value": "EAPK_E841345E_A11E_4c6d_87AF_1CB33616FB0B"
+                                                    },
+                                                    {
+                                                        "@tag": "created",
+                                                        "@value": "2025-10-07 17:54:15"
+                                                    },
+                                                    {
+                                                        "@tag": "modified",
+                                                        "@value": "2025-10-07 17:54:15"
+                                                    },
+                                                    {
+                                                        "@tag": "iscontrolled",
+                                                        "@value": "0"
+                                                    },
+                                                    {
+                                                        "@tag": "version",
+                                                        "@value": "1.0"
+                                                    },
+                                                    {
+                                                        "@tag": "isprotected",
+                                                        "@value": "0"
+                                                    },
+                                                    {
+                                                        "@tag": "usedtd",
+                                                        "@value": "0"
+                                                    },
+                                                    {
+                                                        "@tag": "logxml",
+                                                        "@value": "0"
+                                                    },
+                                                    {
+                                                        "@tag": "phase",
+                                                        "@value": "1.0"
+                                                    },
+                                                    {
+                                                        "@tag": "status",
+                                                        "@value": "Proposed"
+                                                    },
+                                                    {
+                                                        "@tag": "author",
+                                                        "@value": "EricBurgers"
+                                                    },
+                                                    {
+                                                        "@tag": "complexity",
+                                                        "@value": "1"
+                                                    },
+                                                    {
+                                                        "@tag": "ea_stype",
+                                                        "@value": "Public"
+                                                    }
+                                                ]
+                                            },
+                                            "UML:Namespace.ownedElement": {
+                                                "UML:Class": {
+                                                    "@name": "MijnSysteem",
+                                                    "@xmi.id": "EAID_73EFF6CF_CB1A_4d34_856E_E437EB52E04A",
+                                                    "@visibility": "public",
+                                                    "@namespace": "EAPK_E1534927_6443_4a2e_B434_71B0CE3E1E2E",
+                                                    "@isRoot": "false",
+                                                    "@isLeaf": "false",
+                                                    "@isAbstract": "false",
+                                                    "@isActive": "false",
+                                                    "UML:ModelElement.stereotype": {
+                                                        "UML:Stereotype": {
+                                                            "@name": "block"
+                                                        }
+                                                    },
+                                                    "UML:ModelElement.taggedValue": {
+                                                        "UML:TaggedValue": [
+                                                            {
+                                                                "@tag": "isSpecification",
+                                                                "@value": "false"
+                                                            },
+                                                            {
+                                                                "@tag": "ea_stype",
+                                                                "@value": "Class"
+                                                            },
+                                                            {
+                                                                "@tag": "ea_ntype",
+                                                                "@value": "0"
+                                                            },
+                                                            {
+                                                                "@tag": "version",
+                                                                "@value": "1.0"
+                                                            },
+                                                            {
+                                                                "@tag": "package",
+                                                                "@value": "EAPK_E1534927_6443_4a2e_B434_71B0CE3E1E2E"
+                                                            },
+                                                            {
+                                                                "@tag": "date_created",
+                                                                "@value": "2025-10-07 18:11:19"
+                                                            },
+                                                            {
+                                                                "@tag": "date_modified",
+                                                                "@value": "2025-10-07 18:14:23"
+                                                            },
+                                                            {
+                                                                "@tag": "gentype",
+                                                                "@value": "Java"
+                                                            },
+                                                            {
+                                                                "@tag": "tagged",
+                                                                "@value": "0"
+                                                            },
+                                                            {
+                                                                "@tag": "package_name",
+                                                                "@value": "SystemOfInterest"
+                                                            },
+                                                            {
+                                                                "@tag": "phase",
+                                                                "@value": "1.0"
+                                                            },
+                                                            {
+                                                                "@tag": "author",
+                                                                "@value": "EricBurgers"
+                                                            },
+                                                            {
+                                                                "@tag": "complexity",
+                                                                "@value": "1"
+                                                            },
+                                                            {
+                                                                "@tag": "status",
+                                                                "@value": "Proposed"
+                                                            },
+                                                            {
+                                                                "@tag": "stereotype",
+                                                                "@value": "block"
+                                                            },
+                                                            {
+                                                                "@tag": "tpos",
+                                                                "@value": "0"
+                                                            },
+                                                            {
+                                                                "@tag": "ea_localid",
+                                                                "@value": "7"
+                                                            },
+                                                            {
+                                                                "@tag": "ea_eleType",
+                                                                "@value": "element"
+                                                            },
+                                                            {
+                                                                "@tag": "style",
+                                                                "@value": "BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"
+                                                            },
+                                                            {
+                                                                "@tag": "$ea_xref_property",
+                                                                "@value": "$XREFPROP=$XID={44311F29-D3CE-4e1b-811E-39AB0900B9D7}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=block;FQName=SysML1.4::block;@ENDSTEREO;$DES;$CLT={73EFF6CF-CB1A-4d34-856E-E437EB52E04A}$CLT;$SUP=<none>$SUP;$ENDXREF;$XREFPROP=$XID={145EB722-7372-4e0f-88D9-20FE134F4979}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=SysML1.4::InternalBlock@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={73EFF6CF-CB1A-4d34-856E-E437EB52E04A}$CLT;$SUP=<none>$SUP;$ENDXREF;"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "UML:TaggedValue": [
+                {
+                    "@tag": "isEncapsulated",
+                    "@xmi.id": "EAID_501B1315_B5D3_0eb5_BD83_6DAF850E3A56",
+                    "@value": "#NOTES#Values: true,false\n",
+                    "@modelElement": "EAID_2E8CE929_6C46_42e6_9FF2_F5293310D473"
+                },
+                {
+                    "@tag": "isEncapsulated",
+                    "@xmi.id": "EAID_501B1315_B5D3_0eb5_B5BD_19DAD6262390",
+                    "@value": "#NOTES#Values: true,false\n",
+                    "@modelElement": "EAID_F6872F36_5C9A_4f86_B5D6_5F86B61AFB5D"
+                },
+                {
+                    "@tag": "isEncapsulated",
+                    "@xmi.id": "EAID_501B1315_B5D3_0eb5_8CFA_879B78681410",
+                    "@value": "#NOTES#Values: true,false\n",
+                    "@modelElement": "EAID_73EFF6CF_CB1A_4d34_856E_E437EB52E04A"
+                }
+            ],
+            "UML:Diagram": [
+                {
+                    "@name": "Context",
+                    "@xmi.id": "EAID_9D9EEF3D_8834_44fd_96E3_59BF2B85D1BE",
+                    "@diagramType": "ClassDiagram",
+                    "@owner": "EAPK_8A09FDF9_4388_476c_9EEE_A0DD40FFFE06",
+                    "@toolName": "Enterprise Architect 2.5",
+                    "UML:ModelElement.taggedValue": {
+                        "UML:TaggedValue": [
+                            {
+                                "@tag": "version",
+                                "@value": "1.0"
+                            },
+                            {
+                                "@tag": "author",
+                                "@value": "EricBurgers"
+                            },
+                            {
+                                "@tag": "created_date",
+                                "@value": "2025-10-07 18:10:56"
+                            },
+                            {
+                                "@tag": "modified_date",
+                                "@value": "2025-10-07 18:14:26"
+                            },
+                            {
+                                "@tag": "package",
+                                "@value": "EAPK_8A09FDF9_4388_476c_9EEE_A0DD40FFFE06"
+                            },
+                            {
+                                "@tag": "type",
+                                "@value": "Logical"
+                            },
+                            {
+                                "@tag": "swimlanes",
+                                "@value": "locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-21,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"
+                            },
+                            {
+                                "@tag": "matrixitems",
+                                "@value": "locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"
+                            },
+                            {
+                                "@tag": "ea_localid",
+                                "@value": "1"
+                            },
+                            {
+                                "@tag": "EAStyle",
+                                "@value": "ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=846;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"
+                            },
+                            {
+                                "@tag": "styleex",
+                                "@value": "SaveTag=AA7C91D8;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=SysML1.4::BlockDefinition;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;SF=1;Theme=:119;"
+                            },
+                            {
+                                "@tag": "persistentstyle",
+                                "@value": "DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-21,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-21,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-21,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-21,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;Swimlanes=locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-21,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;"
+                            }
+                        ]
+                    },
+                    "UML:Diagram.element": {
+                        "UML:DiagramElement": [
+                            {
+                                "@geometry": "Left=120;Top=204;Right=210;Bottom=274;",
+                                "@subject": "EAID_F6872F36_5C9A_4f86_B5D6_5F86B61AFB5D",
+                                "@seqno": "1",
+                                "@style": "DUID=7BE8193A;HideIcon=0;AttPro=0;AttPkg=0;AttPub=0;Constraint=1;AttPri=0;"
+                            },
+                            {
+                                "@geometry": "Left=247;Top=200;Right=337;Bottom=270;",
+                                "@subject": "EAID_73EFF6CF_CB1A_4d34_856E_E437EB52E04A",
+                                "@seqno": "2",
+                                "@style": "DUID=8985E414;HideIcon=0;AttPro=0;AttPkg=0;AttPub=0;Constraint=1;AttPri=0;"
+                            },
+                            {
+                                "@geometry": "Left=137;Top=63;Right=317;Bottom=152;",
+                                "@subject": "EAID_2E8CE929_6C46_42e6_9FF2_F5293310D473",
+                                "@seqno": "3",
+                                "@style": "DUID=A5F18DA0;HideIcon=0;AttPro=0;AttPkg=0;AttPub=0;Constraint=1;AttPri=0;"
+                            },
+                            {
+                                "@geometry": "Left=10;Top=10;Right=374;Bottom=311;",
+                                "@subject": "EAID_8A09FDF9_4388_476c_9EEE_A0DD40FFFE06",
+                                "@seqno": "4",
+                                "@style": " DUID=392B75A0;NSL=1;"
+                            },
+                            {
+                                "@geometry": "SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;",
+                                "@subject": "EAID_1193EA02_878F_4f1f_A405_8F387D0D37A9",
+                                "@style": "Mode=3;EOID=A5F18DA0;SOID=8985E414;Color=-1;LWidth=0;Hidden=0;"
+                            },
+                            {
+                                "@geometry": "SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;",
+                                "@subject": "EAID_6DBCDA13_E28A_42fe_89EE_09715C013D51",
+                                "@style": "Mode=3;EOID=A5F18DA0;SOID=7BE8193A;Color=-1;LWidth=0;Hidden=0;"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@name": "OperationeleOmgeving",
+                    "@xmi.id": "EAID_DEA84AC4_661D_48ad_B11F_1DBDB64676AF",
+                    "@diagramType": "CompositeStructureDiagram",
+                    "@owner": "EAPK_8A09FDF9_4388_476c_9EEE_A0DD40FFFE06",
+                    "@toolName": "Enterprise Architect 2.5",
+                    "UML:ModelElement.taggedValue": {
+                        "UML:TaggedValue": [
+                            {
+                                "@tag": "version",
+                                "@value": "1.0"
+                            },
+                            {
+                                "@tag": "author",
+                                "@value": "EricBurgers"
+                            },
+                            {
+                                "@tag": "created_date",
+                                "@value": "2025-10-07 18:12:40"
+                            },
+                            {
+                                "@tag": "modified_date",
+                                "@value": "2025-10-07 18:13:07"
+                            },
+                            {
+                                "@tag": "package",
+                                "@value": "EAPK_8A09FDF9_4388_476c_9EEE_A0DD40FFFE06"
+                            },
+                            {
+                                "@tag": "type",
+                                "@value": "CompositeStructure"
+                            },
+                            {
+                                "@tag": "swimlanes",
+                                "@value": "locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-21,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"
+                            },
+                            {
+                                "@tag": "matrixitems",
+                                "@value": "locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"
+                            },
+                            {
+                                "@tag": "ea_localid",
+                                "@value": "2"
+                            },
+                            {
+                                "@tag": "parent",
+                                "@value": "EAID_2E8CE929_6C46_42e6_9FF2_F5293310D473"
+                            },
+                            {
+                                "@tag": "EAStyle",
+                                "@value": "ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=846;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"
+                            },
+                            {
+                                "@tag": "styleex",
+                                "@value": "SaveTag=74DAA4B9;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=SysML1.4::InternalBlock;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;SF=1;Theme=:119;"
+                            },
+                            {
+                                "@tag": "persistentstyle",
+                                "@value": "DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-21,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;Swimlanes=locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-21,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;"
+                            }
+                        ]
+                    },
+                    "UML:Diagram.element": {
+                        "UML:DiagramElement": [
+                            {
+                                "@geometry": "Left=314;Top=90;Right=445;Bottom=163;",
+                                "@subject": "EAID_64498BB7_91C5_4f0b_BACF_1F67D33C6B5A",
+                                "@seqno": "1",
+                                "@style": "DUID=A0ADF271;NSL=0;"
+                            },
+                            {
+                                "@geometry": "Left=62;Top=88;Right=194;Bottom=165;",
+                                "@subject": "EAID_3CCBAF10_CE87_443f_9D8A_C7F01DD0B24E",
+                                "@seqno": "2",
+                                "@style": "DUID=ABD6DAC7;NSL=0;"
+                            },
+                            {
+                                "@geometry": "Left=20;Top=20;Right=482;Bottom=202;",
+                                "@subject": "EAID_2E8CE929_6C46_42e6_9FF2_F5293310D473",
+                                "@seqno": "3",
+                                "@style": " DUID=A88E4D2F;NSL=1;"
+                            },
+                            {
+                                "@geometry": "SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;",
+                                "@subject": "EAID_A0D6BF26_4FFE_4075_8063_0900BE92D890",
+                                "@style": "Mode=3;EOID=A0ADF271;SOID=ABD6DAC7;Color=-1;LWidth=0;TREE=OS;Hidden=0;"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "XMI.difference": null,
+        "XMI.extensions": {
+            "@xmi.extender": "Enterprise Architect 2.5"
+        }
+    }
+}
