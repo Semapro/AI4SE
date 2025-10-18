@@ -2,7 +2,7 @@ What you need to run the demo's:
 
 Ollama: https://ollama.com/
 
-Model: 
+Model: Qwen 2.5 7B Instruct
 
 Pyhton: https://www.python.org/
 
